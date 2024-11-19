@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import ListItem from "./ListItem";
+import Tools from "./Tools";
+import { useState } from "react";
 
 const App = () => {
   const arr = [
@@ -20,10 +22,12 @@ const App = () => {
       isActive: false,
     },
   ];
+
   return (
     <div>
       <Header />
       <div>
+        <Tools {...arr} />
         <div>
           {/* <ListItem
             title={obj.title}

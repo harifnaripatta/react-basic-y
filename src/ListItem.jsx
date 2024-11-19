@@ -3,7 +3,6 @@ import Label from "./Label";
 import "./ListItem.css";
 
 const ListItem = (props) => {
-  console.log(props);
   return (
     <div className="list-item">
       <h4>{props.title}</h4>
