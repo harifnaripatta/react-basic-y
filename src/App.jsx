@@ -3,6 +3,7 @@ import Header from "./Header";
 import ListItem from "./ListItem";
 import Tools from "./Tools";
 import { useState } from "react";
+import Usage from "./Usage";
 
 const App = () => {
   const arr = [
@@ -45,6 +46,7 @@ const App = () => {
         </div>
       </div>
       Footer
+      <Usage />
     </div>
   );
 };
